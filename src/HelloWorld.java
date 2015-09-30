@@ -23,7 +23,7 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		HelloWorld hw = new HelloWorld("Hello World!", "My Little Pony!", 3);
-		setRepeat(5);
+		hw.setRepeat(5);
 		hw.ToString();
 	}
 	
