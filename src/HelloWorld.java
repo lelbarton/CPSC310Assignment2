@@ -24,12 +24,15 @@ public class HelloWorld {
 			System.out.println(this.pony);
         	}
 	}
+
+	public void setRepeat(Int num) {
+		this.repeat = int;
+	}
 	
 	public static void main(String[] args) {
 		HelloWorld hw = new HelloWorld("Hello World!", "My Little Pony!", 3);
 		hw.setMessage("Hello Earth!");
+		hw.setRepeat(5);
 		hw.ToString();
 	}
-	
-	
 }
