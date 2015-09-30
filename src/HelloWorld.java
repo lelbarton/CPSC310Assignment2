@@ -9,6 +9,14 @@ public class HelloWorld {
 		this.pony = pony; 
 		this.repeat = repeat;
 	}
+
+	public String getMessage() {
+		return this.message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
 	
 	public void ToString() {
 		for (int i=0; i < this.repeat; i++) {
@@ -19,6 +27,7 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		HelloWorld hw = new HelloWorld("Hello World!", "My Little Pony!", 3);
+		hw.setMessage("Hello Earth!");
 		hw.ToString();
 	}
 	
